@@ -1,0 +1,5 @@
+export {default as style_women} from '../style/style_women.jpg'
+export {default as style_men} from '../style/style_men.jpg'
+export {default as style_men2} from '../style/style_men2.jpg'
+export {default as style_men3} from '../style/style_men3.jpg'
+export {default as style_man4} from '../style/style_man4.jpg'
