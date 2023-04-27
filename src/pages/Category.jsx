@@ -115,7 +115,7 @@ function Category() {
                 <button className='hover:bg-gray-200 bg-transparent rounded-none border-l-2 px-2 h-full'>Submit</button>
               </form>
 
-              <div className='item_border pl-2 flex items-center gap-x-2'>
+              <div className='item_border pl-2 flex items-center gap-x-2 bg-white'>
                 <h1>Color</h1>
                 <select id='Select' name="SelectedColor" onChange={e=>setColor(e.target.value)} value={color}>
                   <option value="All">All</option>
