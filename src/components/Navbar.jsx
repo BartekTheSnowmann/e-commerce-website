@@ -81,7 +81,8 @@ const ToggleMenu = () =>
                                 {['Jackets','Pants','Shoes','Tshirts','Hoodies'].map((item)=>
                                 (
                                     <Link key={`link-${item}`} to={`category/${item}`}>
-                                        <li className='duration-150 duration-300 h-full hover:bg-tertiary hover:text-black p-4'>{item}</li>
+                                        <li className='duration-300 h-full hover:bg-tertiary hover:text-black p-4'
+                                        onClick={()=>setShowMenu(false)}>{item}</li>
                                     </Link>
                                 ))}
                             </ul>
