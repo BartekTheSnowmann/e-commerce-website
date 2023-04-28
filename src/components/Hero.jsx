@@ -62,10 +62,10 @@ function Hero() {
               <motion.h1
               ref={MyRef}
               variants={item}
-              className='text-white tracking-widest text-4xl sm:text-5xl lg:text-8xl font-bold'>KANON CLOTHING</motion.h1>
+              className='text-white tracking-widest text-5xl sm:text-7xl lg:text-8xl font-bold'>KANON CLOTHING</motion.h1>
               <motion.p
               variants={item}
-              className='text-gray-400 text-xl sm:text-2xl lg:text-3xl uppercase'>Buy exclusive clothes from your Favorite Brand.</motion.p>
+              className='text-gray-400 text-xl font-bold sm:text-xl lg:text-3xl uppercase'>Buy exclusive clothes from your Favorite Brand.</motion.p>
             </motion.div>
             <motion.div
             variants={arrow}
