@@ -37,7 +37,7 @@ function Cart({ToggleCart}) {
       animate={{x:0, opacity:1}}
       transition={{type:'tween',duration:.3}}
       exit={{x:'100%', opacity:0}}
-      className='z-20 fixed top-0 right-0 w-2/3 md:w-1/3 h-screen bg-white px-4 shadow-black shadow-lg'>
+      className='z-20 fixed top-0 right-0 w-2/3 md:w-1/4 h-screen bg-white px-4 shadow-black shadow-lg'>
                 <div className='h-20 flex items-center justify-between'>                                                 
                   <div className='flex items-center font-bold text-lg gap-x-4'>
                     {total > 0 && <Link to='checkout'>
