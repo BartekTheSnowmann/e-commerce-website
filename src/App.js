@@ -24,9 +24,12 @@ function App() {
           <Route path='*' element={<Error/>} />
         </Routes>
       </AnimatePresence>
-      <ToastContainer 
+      <ToastContainer className='font-bold'
       position='top-left'
       pauseOnFocusLoss={false}
+      closeOnClick={true}
+      autoClose={1500}
+      hideProgressBar={true}
       />
     </>
   );
